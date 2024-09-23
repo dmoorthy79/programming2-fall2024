@@ -12,3 +12,18 @@ p {
  background-color:beige;
     border: inset;
     }
+
+.alert{
+    color: red;
+    font-weight: 400;
+    font-size: 32px
+}
+
+#para-2 {
+    color:goldenrod;
+    border: thick 12px white;
+}
+#New-id {
+    color:beige;
+    border: dotted
+}
