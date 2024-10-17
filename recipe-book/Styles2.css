@@ -1,3 +1,14 @@
 .Title {
     color: purple
 }
+
+#Description {
+    margin: 20px;
+    border-color: black;
+}
+
+li {
+    color: green;
+    padding: 5px;
+    font-weight: 300;display: block
+}
