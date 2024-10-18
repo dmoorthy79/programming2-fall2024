@@ -12,3 +12,7 @@ li {
     padding: 5px;
     font-weight: 300;display: block
 }
+
+body {
+    background-color: aquamarine;
+}

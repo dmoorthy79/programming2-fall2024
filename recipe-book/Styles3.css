@@ -5,7 +5,12 @@ li {
     border-radius: 20px;
 }
 
-#Title {
+#title {
     padding: 10px;
-    font-weight: 400;display: block;
+    font-weight: 800;display: block;
+    color: purple;
+}
+
+body {
+    background-color: aquamarine;
 }

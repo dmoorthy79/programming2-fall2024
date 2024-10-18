@@ -29,3 +29,11 @@ div {
     width: max-content;
     margin: 20px;
 }
+
+body {
+    background-color: aquamarine;
+}
+
+.Title {
+    color: purple;
+}
