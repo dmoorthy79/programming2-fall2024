@@ -9,6 +9,10 @@
 
 .flex-container {
 	border: red 3px solid;
+    height: 400px;
     display: flex;
-    justify-content:stretch
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap:10px 20px;
 }
