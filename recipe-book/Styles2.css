@@ -5,23 +5,32 @@
 #Description {
     margin: 20px;
     border-color: black;
+    font-family: Times New Roman, Times, serif;
+    font-size:x-large
 }
 
 li {
     color: green;
     padding: 5px;
-    font-weight: 300;display: block
+    font-weight: 300;
+    display: block;
+    font-family: Times New Roman, Times, serif;
+    font-size:large;
+    
 }
 
 body {
     background-color: aquamarine;
 }
 
-.Ingredient-1, .Ingredient-2, .Ingredient-3, .Ingredient-4, .Ingredient-5, .Ingredient-6, .Ingredient-7, .Ingredient-8, .Ingredient-9, .Ingredient-10, .Ingredient-11 {
+.Ingredient{
     background-color:beige;
+    height: 4vh;
+    width: 80vw;
 }
 
 ul {
     border:solid;
     border-width:4px;
+    padding:10px;
 }
