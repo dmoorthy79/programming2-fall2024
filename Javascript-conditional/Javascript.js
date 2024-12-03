@@ -42,20 +42,27 @@
 
 
 
-let username = "CrouchingTiger";
+const username = "CrouchingTiger";
+let password = "Dhruv123";
 
-if (("username".value) != username {
-    alert("That is the correct username!");
+function login(){
+    let u = document.getElementById("username").value;
+    let p = document.getElementById("password").value;
+    let message = document.getElementById("message");
+    
+    if (u != username && p == password) {
+    message.innerText = "That is not the correct username!";
 }
 
-else if(("password".value) != password){
-    alert("That is the correct password!");
+else if(u == username && p != password){
+    message.innerText = "That is not the correct password!";
 }
 
-else if (("username".value) !== username && ("password".value) != password){
-    alert("That is the correct username!");
+else if (u == username && p == password){
+    message.innerText = "That is the correct username and password!";
 }
 else{
-    alert("That is not the correct username");
+    message.innerText = "That is not the correct username or password!";
+}
 }
 
