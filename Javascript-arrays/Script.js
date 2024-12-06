@@ -7,7 +7,7 @@
 //alert(tasks);
 //
 //tasks.push("eat dinner");
-//alert(tasks);
+//alert(tasks);s
 //
 //tasks.splice([2]);
 //alert(tasks);
@@ -22,9 +22,12 @@ items.push("phone");
 console.log(items);
 items.pop();
 console.log(items);
-items.splice([2, 1]);
+items.splice(1,1,"pencil");
+items.splice(2, 1);
 console.log(items);
 
 let numbers = ["1","5","4","6"];
-number.splice([0,0,"23"]);
-number.splice([1,1,"35"]);
+numbers.splice(0,0,"23");
+console.log(numbers);
+numbers.splice(1,1,"35");
+console.log(numbers);

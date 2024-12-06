@@ -47,7 +47,7 @@ else{
 let a = document.getElementById("age").value;
 
 if (a == "0-10") {
-    message.innerText += "lion";
+    message.innerText += " lion";
 }
 
 else if (a == "11-20") {
@@ -86,7 +86,7 @@ else{
     
 let fc = document.getElementById("favoriteColor").value;
 
-if (fc == blue) {
+if (fc == "blue") {
     message.innerText = " robot";
 }
 
