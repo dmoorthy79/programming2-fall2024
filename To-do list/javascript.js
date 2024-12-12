@@ -23,9 +23,14 @@ function clearTask(){
    
 }
 
-//function addTask(){
-//    let task = prompt("Enter your task: ");
-//    for (i=0; i<tasks.length, i++)
-//    tasks.splice(i, 1, "");
-//     showTasks();
-//}
+function removeTask(){
+    let task = prompt("Enter your task: ");
+        Tasks.remove(task);
+     showTasks();
+}
+
+
+function prioritizeTask(){
+    let task = prompt("enter your task: ");
+    let taskListUl = document.getElementById("TaskList");
+}
