@@ -67,3 +67,7 @@ body {
 #header{
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.clicked{
+    background-color: blue;
+}
