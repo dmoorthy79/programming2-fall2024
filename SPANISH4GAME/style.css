@@ -10,7 +10,7 @@ body {
   flex-grow:0;
 }
 
-
+/*for the title and then the content*/
 .gallery {
   display: flex;
   flex-direction: row;
@@ -24,6 +24,7 @@ body {
   flex-grow:0;
 }
 
+/*for the columns*/
 .column {
   display:flex;
   flex-direction:column;
@@ -32,6 +33,7 @@ body {
   align-items: center;
 }
 
+/* for the cards*/
 .item {
   display: flex;
   flex-direction: column;
@@ -46,6 +48,9 @@ body {
   font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif, monospace;
   font-size: 20px;
 }
+
+
+/*changing the colors for each of the items*/
 .item:hover{
   background-color: lightblue;
 }

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang = "en">
-<!-- 4x5 grid -->
+<!-- setting up the titular components -->
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
@@ -14,9 +14,12 @@
   <center>
     <button id="start">Start Game</button>
     <select name="Timer" id="tim"><option value="timed">Timed</option><option value="untimed">Untimed</option></select>
-    <p>Score: 2   Attempts: 4   Time Remaining: 3:47</p>
+    <div>Time remaining: <span id="time">03:00</span></div>
+    <div>Score: <span id="Score">0</span></div>
   </center>
   
+    
+<!--creating the 4x5 grid design of the cards-->
 <div class = "gallery">
   <div class="column">
       <div class="item">
@@ -89,9 +92,6 @@
       </div>
   </div>
 </div>
-
-
-  <script src="script.js"></script>
 </body>
 
 </html>
