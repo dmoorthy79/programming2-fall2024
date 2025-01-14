@@ -9,10 +9,10 @@
     <script src = "script.js"></script>
 </head>
 
-<body>
+<body onload = "shuffleAssign()">
   <center><h1 id="header">Spanish IV Matching Game</h1></center>
   <center>
-    <button id="start">Start Game</button>
+    <button id="start" onclick="start()">Start Game</button>
     <select name="Timer" id="tim"><option value="timed">Timed</option><option value="untimed">Untimed</option></select>
     <div>Time remaining: <span id="time">03:00</span></div>
     <div>Score: <span id="Score">0</span></div>

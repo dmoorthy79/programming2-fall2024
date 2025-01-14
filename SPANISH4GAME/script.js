@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () =>{
+//document.addEventListener("DOMContentLoaded", () =>{
     //creating a list of pairs with all the vocabulary
     const pairs = [
         {word: "la masculinidad", match: "masculinity"},
@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", () =>{
         //create a new array for selected paris this round
         let cardPairs = [];
         
-        //take the first cards.length/2 pairs (word and match) to the new array
+        //randomly select 20 our of the total that you have//
         for(let i = 0; i < cards.length/2; i++){
             cardPairs.push(shuffledPairs[i].word);
             cardPairs.push(shuffledPairs[i].match);
@@ -153,19 +153,20 @@ function startTimer(duration, display) {
             "Timer".setVisible(false);
         }
 }
-    
-    
-    //document.getElementById("start").innerText = Start Game;
-    //if("start".cl)
-
-//<select onchange="myFunction()">
   
     //setting timer to three minutes
-    window.onload = function () {
+function start() {
     var threeMinutes = 60 * 3,
         display = document.querySelector('#time');
     startTimer(threeMinutes, display);
-};
+    alert("Match each spanish word to the corresponding english translation. If you match correctly, it will show up as green. If ou match incorrectly, it will show up as red. Have fun and good luck!");
+}
+    
+    //document.getElementById("start").innerText = Start Game;
+    //if("start".clicked)
+    //timer.start
+
+//<select onchange="myFunction()">
 
     
         function isMatch(item1, item2){
@@ -182,9 +183,9 @@ function startTimer(duration, display) {
     
     
     shuffleAssign();
-});
+//});
 
 
-//randomly select 20 our of the total that you have//
+
 //make sure that the 20 which are slected are shuffled appropriately
 //import random maybe?

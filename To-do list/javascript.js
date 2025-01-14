@@ -25,7 +25,7 @@ function clearTask(){
 
 function removeTask(){
     let task = prompt("Enter your task: ");
-        Tasks.remove(task);
+        Tasks.pop(task);
      showTasks();
 }
 
