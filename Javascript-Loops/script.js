@@ -21,8 +21,8 @@ for (i = 0; i < animals.length; i++){
 
 let animals2 = [];
 for (i = 0; i< animals.length; i++){
-    animals2.push(animals[i]);
-    animals2 = (animals.uppercase);
+    animals2.push(animals[i].toUpperCase());
+    //animals2 = (animals2);
     console.log(animals2);
 }
 

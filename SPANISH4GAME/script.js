@@ -58,8 +58,23 @@
         }
         return array;
     }
+
+
+//Making sure that the user has the option to choose whether or not it is timed
+function timeChanged() {
+    console.log(document.getElementById("tim").value);
+    
+    if(document.getElementById("tim").value == "timed"){
+        document.getElementById("Timer2").style.color = "black";
+    }
+    
+    else{
+        document.getElementById("Timer2").style.color = "transparent";
+    }
+}
     
     function shuffleAssign() {
+        
         //shuffle list of pairs
     //cardPairs = shuffleArray(cardPairs);
         
@@ -145,26 +160,17 @@ function startTimer(duration, display) {
             timer = duration;
         }
     }, 1000);
-    
-    if (Timed.optSelected){
-            "Timer".setVisivile(true);
-        }
-        else{
-            "Timer".setVisible(false);
-        }
 }
-  
+    
+    
+    
     //setting timer to three minutes
 function start() {
+    alert("Match each spanish word to the corresponding english translation. If you match correctly, it will pop up as green. If you match incorrectly, it will pop up as red for exactly one second, before going back to the usual color. If you hover over the card, it will show a light blue color, and if you select it, it will show a dark blue color. Press the “Start Game” button to start the timer. Also, if you would like for it to be timed, select “Timed”, and if you would not like for it to be timed, select “Untimed”. If you would like to restart the game, reload the page. Have fun!");
     var threeMinutes = 60 * 3,
         display = document.querySelector('#time');
     startTimer(threeMinutes, display);
-    alert("Match each spanish word to the corresponding english translation. If you match correctly, it will show up as green. If ou match incorrectly, it will show up as red. Have fun and good luck!");
 }
-    
-    //document.getElementById("start").innerText = Start Game;
-    //if("start".clicked)
-    //timer.start
 
 //<select onchange="myFunction()">
 
